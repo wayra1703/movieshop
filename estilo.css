@@ -1,0 +1,73 @@
+/* Estilos para dispositivos móviles (menos de 480 píxeles) */
+body{
+    background-color: rgb(43, 97, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+*{
+    font-family: 'lato',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+form{
+    width: 600px;
+    border: 2px solid black;
+    padding: 6rem;
+    background-color: aqua;
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+}
+h1{
+   display: block;
+   border: 2px solid black;
+   width: 95%;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10px;
+}
+label{
+    color: blueviolet;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+button{
+    float: right;
+    background-color: chartreuse;
+    padding: .5rem;
+    color: wheat;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
